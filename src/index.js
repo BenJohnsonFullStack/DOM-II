@@ -28,6 +28,7 @@ header.style.zIndex = "100";
 
 // Zoom Page Images on Mouse-Over
 const zoomImages = document.querySelectorAll(".zoom");
+console.log(zoomImages);
 zoomImages.forEach(element => {
     element.style.opacity = ".8";
     element.style.zIndex = "99";
